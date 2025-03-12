@@ -721,9 +721,9 @@ module.exports = {
       DEFAULT: "1",
     },
     fontFamily: {
-      sans: ["Open Sans"],
-      serif: ['SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace', "serif"],
-      body: ["Roboto", "sans-serif"],
+      sans: ["tajawal"],
+      serif: ['tajawal'],
+      body: ["tajawal"],
       awesome: ["FontAwesome"],
     },
     fontSize: ({ theme }) => ({
