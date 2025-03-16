@@ -1342,6 +1342,8 @@ module.exports = {
   variantOrder: ["first", "last", "odd", "even", "visited", "checked", "empty", "read-only", "group-hover", "group-focus", "focus-within", "hover", "focus", "focus-visible", "active", "disabled"],
 
   plugins: [
+        require('@tailwindcss/forms'),
+        require('@tailwindcss/typography'),
     plugin(function ({ addComponents, addUtilities }) {
       addUtilities({
         ".transform3d": {
@@ -1448,4 +1450,5 @@ module.exports = {
       });
     }),
   ],
+  
 };
